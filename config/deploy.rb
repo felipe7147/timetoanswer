@@ -1,5 +1,5 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.16.0"
+lock "~> 3.11.0"
 
 set :application, "timetoanswer"
 set :repo_url, "https://github.com/felipe7147/timetoanswer.git"
@@ -9,12 +9,12 @@ set :repo_url, "https://github.com/felipe7147/timetoanswer.git"
 set :branch, 'master'
 
 # Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, "/var/www/timetoanswer"
+set :deploy_to, "/var/www/timetoanswer"
 
 # Default value for :format is :airbrussh.
- set :format, :airbrussh
+set :format, :airbrussh
 
- set :log_level, :debug
+set :log_level, :debug
 
 # You can configure the Airbrussh format using :format_options.
 # These are the defaults.
@@ -27,7 +27,6 @@ set :branch, 'master'
 # append :linked_files, "config/database.yml"
 append :linked_files, "config/database.yml", "config/master.key"
 
-
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
 append :linked_dirs, "storage", "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
@@ -39,7 +38,7 @@ append :linked_dirs, "storage", "log", "tmp/pids", "tmp/cache", "tmp/sockets", "
 # set :local_user, -> { `git config user.name`.chomp }
 
 # Default value for keep_releases is 5
- set :keep_releases, 5
+set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
