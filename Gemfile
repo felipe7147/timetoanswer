@@ -44,6 +44,7 @@ gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
 gem 'jquery-rails'
+gem 'turbolinks'
 gem 'rails-ujs'
 
 
