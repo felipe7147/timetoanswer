@@ -43,6 +43,9 @@ gem 'faker'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
+gem 'jquery-rails', '~> 4.3', '>=4.3.3'
+gem 'rails-ujs'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
