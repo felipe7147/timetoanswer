@@ -43,9 +43,9 @@ gem 'faker'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
-gem 'jquery-rails', '~> 4.4.0'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'turbolinks'
-gem 'rails-ujs'
+gem 'rails-ujs', '~> 0.1.0'
 
 
 group :development, :test do
