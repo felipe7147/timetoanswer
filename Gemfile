@@ -43,7 +43,7 @@ gem 'faker'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.4.0'
 gem 'turbolinks'
 gem 'rails-ujs'
 
