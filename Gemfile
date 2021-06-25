@@ -43,7 +43,7 @@ gem 'faker'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
-gem 'jquery-ui-rails', '~> 4.2.1'
+gem 'jquery-ui-rails'
 
 
 group :development, :test do

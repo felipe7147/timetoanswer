@@ -261,7 +261,7 @@ DEPENDENCIES
   devise
   faker
   jbuilder (~> 2.5)
-  jquery-ui-rails (~> 4.2.1)
+  jquery-ui-rails
   kaminari
   kaminari-i18n
   listen (>= 3.0.5, < 3.2)
