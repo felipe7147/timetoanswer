@@ -43,7 +43,7 @@ gem 'faker'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
-gem 'jquery-ui-rails'
+
 
 
 group :development, :test do
@@ -76,6 +76,7 @@ end
 
 group :production do
   gem 'mysql2' # , '~> 0.3.18'
+  gem 'jquery-ui-rails'
   end
   
 
